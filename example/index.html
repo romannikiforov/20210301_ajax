@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Example</title>
+    <link rel="stylesheet" href="../_//css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../_/css/style.css" />
+  </head>
+  <body>
+    <div class="container mt-3">
+      <button id="btn" class="btn btn-primary mb-3">get pokemon</button>
+      <div id="loader" class="loader hide">
+        <img src="i/spinner.gif" />
+      </div>
+      <div id="pokemon" class="pokemon">
+        <span class="pokemon__title">squirtle</span>
+        <div class="pokemon__img-box">
+          <img
+            src="https://img.pokemondb.net/artwork/squirtle.jpg"
+            className="pokemon__img "
+          />
+        </div>
+      </div>
+
+      <div class="mt-5">Total: <span id="total"></span></div>
+    </div>
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script> -->
+    <script src="script.js"></script>
+  </body>
+</html>
